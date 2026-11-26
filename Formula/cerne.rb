@@ -1,28 +1,28 @@
 class Cerne < Formula
   desc "Living documentation for projects built with AI agents"
   homepage "https://github.com/henriquesakata/cerne"
-  version "0.15.2"
+  version "0.16.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/henriquesakata/cerne/releases/download/v0.15.2/cerne_v0.15.2_darwin_arm64"
-      sha256 "a68fbd37b3515ed0c4510ae615b2194309698eb1e65636c0998e77c27d47fd03"
+      url "https://github.com/henriquesakata/cerne/releases/download/v0.16.0/cerne_v0.16.0_darwin_arm64"
+      sha256 "c2a396d35d2e5f5cd25c0980b107a0cfb6f2111858b6172865f3f7a1bbfb373e"
     end
     on_intel do
-      url "https://github.com/henriquesakata/cerne/releases/download/v0.15.2/cerne_v0.15.2_darwin_amd64"
-      sha256 "9d930b6b3bce5a75d5624ebba99dfea6062fd15783b56471dc9aee453eb0bbcb"
+      url "https://github.com/henriquesakata/cerne/releases/download/v0.16.0/cerne_v0.16.0_darwin_amd64"
+      sha256 "c6f6bb430a15630c25c2058ca1dfc3ae2182587ec9e4663ce9b24bb29ad68ce6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/henriquesakata/cerne/releases/download/v0.15.2/cerne_v0.15.2_linux_arm64"
-      sha256 "6082f1b498d11897e2f621c5e4f5ceffa5d704e463ea8608147d67c5c4224983"
+      url "https://github.com/henriquesakata/cerne/releases/download/v0.16.0/cerne_v0.16.0_linux_arm64"
+      sha256 "14f996b6c832de001a7e8f5eebdaddbc338a41cca0eea11ea741fd62938cb97a"
     end
     on_intel do
-      url "https://github.com/henriquesakata/cerne/releases/download/v0.15.2/cerne_v0.15.2_linux_amd64"
-      sha256 "d8bb6c6e009b7ad34d81c2215876dd6981b6fdfe8f73c08e8c8adf4d2fca3f98"
+      url "https://github.com/henriquesakata/cerne/releases/download/v0.16.0/cerne_v0.16.0_linux_amd64"
+      sha256 "98d84e796f0c5a55ce4fa044837b1333a37377faa0b4de32ecc31a187c7bbe59"
     end
   end
 
